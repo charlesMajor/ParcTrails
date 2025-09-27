@@ -1,0 +1,11 @@
+{
+    "/api/*": "/$1",
+    "users":600,
+    "likes":600,
+    "coordinates":644,
+    "trails":644,
+    "parks":664,
+    "levels":664,
+    "types":664,
+    "segments":644
+}

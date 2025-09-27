@@ -1,0 +1,22 @@
+### Récupérer les "j'aime" associés à un sentier
+GET http://localhost:3000/api/trails/246/likes
+
+### Récupérer les "j'aime" d'un utilisateur.
+GET http://localhost:3000/api/users/99999/likes
+Authorization: Bearer COPIER_LE_JETON_ICI
+
+### Ajouter un "j'aime" à un utilisateur.
+POST http://localhost:3000/api/likes
+Authorization: Bearer COPIER_LE_JETON_ICI
+content-type: application/json
+
+{
+    "userId": 99999,
+    "trailId": 246
+}
+
+### Supprimer un "j'aime" d'un utilisateur se fait avec le id du like.
+DELETE  http://localhost:3000/api/likes/996
+Authorization: Bearer COPIER_LE_JETON_ICI
+
+

@@ -1,0 +1,16 @@
+{
+  "editor.defaultFormatter": "numso.prettier-standard-vscode",
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "package-lock.json": true,
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  // "debug.inlineValues": "on",
+}

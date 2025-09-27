@@ -1,0 +1,24 @@
+
+### ******************************************************************
+### NE PAS UTILISER LES ROUTES DE CE FICHIER DANS L'APPLICATION.
+### Ce sont des des requêtes à l'API REST pour aider au développement.
+### ******************************************************************
+
+### Mot de passe de tous les utilisateurs: password
+
+### Voir les utilisateurs générés (modifier la page si nécessaire)
+GET http://localhost:3000/api/generatedUsers?_page=1
+
+### Voir l'admin (id = 0)
+GET http://localhost:3000/api/generatedUsers?userId=0
+
+
+### Voir le contenu de toute la BD (un peu lourd, à faire dans le navigateur)
+Get http://localhost:3000/db
+
+### Voir les niveaux de difficulté des sentiers
+GET http://localhost:3000/levels
+
+### Voir les types de sentiers
+GET http://localhost:3000/types
+

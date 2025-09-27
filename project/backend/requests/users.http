@@ -1,0 +1,34 @@
+##################################################################
+### ATTENTION 
+### - Il ne faut pas créer le id de l’utilisateur dans le code.
+### - Le id est créé par l'API REST et est présent dans le token.
+### - Dans le création ci-dessous le id est ajouté pour simplifier 
+###   les exemples, mais en réalité ce n'est pas au client de gérer 
+###   la création d'un id.
+###################################################################
+
+### Créer un utilisateur
+POST http://localhost:3000/api/register
+content-type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "test",
+  "name": "Godefroy de Montmirail",
+  "id":99999
+}
+
+### Récupérer un jeton 
+POST http://localhost:3000/api/login
+content-type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "test"
+}
+
+### Récupérer les informations d'un utilisateur
+GET http://localhost:3000/api/users/99999
+Authorization: Bearer COPIER_LE_JETON_ICI
+
+

@@ -1,0 +1,15 @@
+###  Récupérer tous les parcs
+GET http://localhost:3000/api/parks
+
+###  Récupérer un parc
+GET http://localhost:3000/api/parks/8
+
+### Récupérer tous les sentiers d'un parc
+GET http://localhost:3000/api/parks/8/trails
+
+### Récupérer l'information sur un sentier 
+GET http://localhost:3000/api/trails/246/
+
+### Récupérer le contenu d'un tronçon ("segment") d'un sentier
+GET http://localhost:3000/api/segments/1151/
+
