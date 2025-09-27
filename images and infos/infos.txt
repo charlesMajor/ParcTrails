@@ -1,0 +1,3 @@
+This was a basic website designed to showcase various walkable trails in Canadian regions. 
+I also integrated user account creation and basic security features. The website works with a basic
+backend and a database made of a json file.
